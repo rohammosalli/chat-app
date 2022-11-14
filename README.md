@@ -11,17 +11,16 @@ Go installed
 
 ```bash
 go mod download
-# buid the source code with Make command
-make build_all
 ```
-Or you can with go command
+Build the code
 ```bash 
 go build -o dist/server cmd/web/*.go
 ```
 
-### Start working with the script 
+### Start working with the application 
 
-Create a new topic 
+
+Run the server
 ```bash
 ./dist/server 
 
